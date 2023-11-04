@@ -1,0 +1,40 @@
+.header {
+  background-color: rgb(1, 1, 101);
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.header-container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 50px 0px 100px 0px;
+}
+
+.header-list {
+  display: flex;
+  gap: 40px;
+  cursor: pointer;
+}
+
+.header-list-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-list-item.active {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.header-btn {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: rgb(27, 27, 164);
+  font-weight: 400;
+  color: white;
+  background-color: #0071c2;
+}
